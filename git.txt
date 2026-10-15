@@ -46,3 +46,5 @@ also make sure all developers
 use the same Studio version 
 (or compatible versions)
 to avoid project.json compatibility issues.
+
+test
