@@ -1,0 +1,48 @@
+Pull before starting work
+Push after committing changes
+
+git version
+git update-git-for-windows
+git version
+
+git init
+git add .
+git commit -m "Initial commit"
+#
+> git update-ref -d HEAD
+> git log --oneline
+fatal: your current branch 'main' does not have any commits yet
+#
+git remote add origin https://github.com/alexandermvalorsolution/Task.git
+
+
+git remote -v
+git branch -M main
+git push -u origin main
+
+git config --global user.name "RPA"
+git config --global user.email "RPA@Valor.com"
+
+3. Generate GitHub Authentication
+Personal Access Token (PAT) (recommended)
+SSH Key
+Option A: PAT
+GitHub → Settings → Developer Settings → Personal Access Tokens
+Create token with repository permissions.
+
+.gitignore
+
+.project
+.settings/
+.nuget/
+packages/
+TestResults/
+Screenshots/
+.env
+
+
+For UiPath team development, 
+also make sure all developers 
+use the same Studio version 
+(or compatible versions)
+to avoid project.json compatibility issues.
