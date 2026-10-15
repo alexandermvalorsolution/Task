@@ -53,3 +53,5 @@ jjj
 ll
 
 kik
+
+git blame -L 42,56 git.txt
